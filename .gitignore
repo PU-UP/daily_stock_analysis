@@ -60,6 +60,10 @@ reports/
 *.sqlite
 *.sqlite3
 
+# Agent 每日运维本地产物（字段契约 _SCHEMA.md 入库）
+daily_agent_evolution/*
+!daily_agent_evolution/_SCHEMA.md
+
 # 系统文件
 .DS_Store
 Thumbs.db
